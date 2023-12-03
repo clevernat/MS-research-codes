@@ -1,0 +1,25 @@
+import numpy as np
+
+# Assuming you have a list of predictions from different models
+predictions = [model1_predictions, model2_predictions, model3_predictions]
+
+# Convert the ensemble mean to a NumPy array
+ensemble_mean = np.array(ensemble_mean)
+
+# Calculate the differences between each model's prediction and the ensemble mean
+differences = [model_pred - ensemble_mean for model_pred in predictions]
+
+
+# Compute the standard deviation across the models for each data point
+std_deviations = np.std(differences, axis=0)
+
+
+# Compute the weights based on the reciprocal of the standard deviation
+weights = 1.0 / std_deviations
+
+# Normalize the weights so that they sum up to 1
+weights /= np.sum(weights)
+
+
+# Compute the weighted ensemble mean
+weighted_ensemble_mean = np.sum([model_pred * weight for model_pred, weight in zip(predictions, weights)], axis=0)
