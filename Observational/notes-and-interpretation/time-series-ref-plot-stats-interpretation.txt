@@ -1,0 +1,17 @@
+Assuming that the data follows a normal distribution, the 68-95-97.5 rule (also known as the empirical rule or the three-sigma rule) states that:
+
+Approximately 68% of the data falls within one standard deviation of the mean.
+Approximately 95% of the data falls within two standard deviations of the mean.
+Approximately 99.7% of the data falls within three standard deviations of the mean.
+Therefore, if you add the mean and one standard deviation, you will capture approximately 68% of the data. If you subtract the mean and one standard deviation, you will also capture approximately 68% of the data.
+
+If we denote the mean as μ and the standard deviation as σ, then:
+
+The range μ ± σ captures approximately 68% of the data.
+The range μ ± 2σ captures approximately 95% of the data.
+The range μ ± 3σ captures approximately 99.7% of the data.
+So, for example, if the mean is 10 and the standard deviation is 2, then:
+
+The range 10 ± 2 captures approximately 68% of the data, which corresponds to values between 8 and 12.
+The range 10 ± 4 captures approximately 95% of the data, which corresponds to values between 6 and 14.
+The range 10 ± 6 captures approximately 99.7% of the data, which corresponds to values between 4 and 16.

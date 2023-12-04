@@ -1,0 +1,38 @@
+This study aims to examine the characteristics of convective cells in a Cold Air Outbreak (CAO) prior to their passing over the AMF1 site, and relate this information to observations at the site. The data used includes Trolltinde C-band scanning radar Met Norway level 2 or level 3 data, COMBLE AMF1 data, and model output from Tim Juliano. The method involves using cell tracking software to characterize the evolution of cells within the radar range, examining base-level reflectivity trends as a function of radar range, and back-tracking identified cells to relate observed reflectivity trends to KAZR cloud structure and LWP. The relationships between these variables will be explored using model output for evaluation purposes. The study will start with an intense CAO case and may expand to other open cell CAOs. The results will provide insights into the lifecycle of convective cells in a CAO and their impact on the AMF1 site.
+
+-------------
+
+Abstract:
+
+In this study, we analyze a continuous area of interest (CAO) around the date of March 13th, 2020, to investigate the behavior of convective cells over the Norwegian Sea. We define the domain size and mark the location of all Met Norway C-band radars. Using a reflectivity threshold of 20 dBZ, we plot time series of area, maximum reflectivity, mean reflectivity, and number of cells as a function of time to landfall. We also repeat this analysis with different reflectivity thresholds of 15, 10, and 5 dBZ.
+
+We assess the radar range effect by examining the height of the lowest radar beam above sea level as a function of radar range. We also compare the effect of natural intensity change, such as orographic enhancement, with the radar range effect.
+
+Next, we contrast close-range (<50 km) landfalls against long-range (>50 km) landfalls relative to the Trolltinde radar only. We show two populations on one plot to compare their behavior.
+
+We then ignore Tobac and plot the mean 2D reflectivity map for the 3/13 CAO. We add a second color field of topography, the location of all Met Norway C-band radars, and the 0-4 km deep mean wind field from ERA5 or from Tim's 1 km WRF run. Additionally, we compute 2D reflectivity as a function of distance from shore along the mean wind and then compute the average for close-range and long-range landfalls.
+
+Finally, we identify cells that are weakening/strengthening as they make landfall over the Nordmela (AMF1 site) and compare against KAZR data. We also examine the changes in cloud top temperature as a function of distance to the coast in the vicinity of the AMF1 site.
+
+This study provides insights into the behavior of convective cells over the Norwegian Sea and highlights the importance of understanding radar range effect and natural intensity change in interpreting radar data.
+
+-------------------
+
+This study investigates the characteristics and effects of a Cold Air Outbreak (CAO) that occurred over the Norwegian Sea from March 13 to March 14, 2020. Using data from Met Norway C-band radars and VIIRS/MODIS satellite sensors, we analyzed the time series of reflectivity, area, and intensity of individual cells as a function of time to landfall, with different reflectivity thresholds of 20, 15, 10, and 5 dBZ. We also examined the radar range effect and natural intensity change effect on the data, and plotted the 2D reflectivity map for the entire CAO, with added topography, radar locations, and wind vectors.
+
+Furthermore, we computed the 1D reflectivity as a function of distance from shore along the mean wind direction, and compared the average for close-range (<50 km) landfall against long-range (>50 km) landfall. We also identified cells that weakened or strengthened as they made landfall over Nordmela, and compared against KAZR data. Finally, we analyzed changes in cloud top temperature as a function of distance to the coast in the vicinity of the AMF1 site.
+
+Our findings reveal the complex dynamics of the CAO, including the bimodal distribution of reflectivity and the effects of radar range and orographic enhancement. This study provides valuable insights into the understanding of the atmospheric processes associated with CAOs over the Norwegian Sea, and can inform future research in this area.
+
+
+df.loc[start:end]
+
+start = '2018-10-14'
+end = '2019-05-20'
+
+
+
+mask = ((df['date'] >= start) & (df['date'] <= end))
+
+df[ mask ]
+
