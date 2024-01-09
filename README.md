@@ -1,7 +1,7 @@
 # MS-research-codes
 
 ## Project Overview
-I am actively engaged in the project titled **"Cold Air Outbreak, Convective Cell Tracking, and Life Cycle Study"**. This project is a part of the Cold Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE), an extensive field campaign conducted under the auspices of the United States Department of Energy's (DOE) Atmospheric Radiation Measurement (ARM) program.
+I am actively engaged in the project titled **"Cold Air Outbreak, Convective Cell Tracking, and Life Cycle Study"** as part of my master's research, supervised by Professor Bart Geerts at the University of Wyoming. This project is integral to the Cold Air Outbreaks in the Marine Boundary Layer Experiment (COMBLE), an extensive field campaign conducted under the auspices of the United States Department of Energy's (DOE) Atmospheric Radiation Measurement (ARM) program.
 
 ### COMBLE Campaign
 - **Duration:** December 1, 2019 to May 31, 2020
